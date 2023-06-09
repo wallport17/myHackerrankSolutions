@@ -6,6 +6,9 @@ import sys
 
 def simpleArraySum(ar): #Here we defined the function using the array ar as its parameter. 
     simpleArraySum = 0 #Here we initialize the variable which is used to store the sum
+   
+   #Here we are iterating through each element in the array. Each element will be added to our variable which
+   #will be updated each iteration. 
     for i in ar:
         simpleArraySum = simpleArraySum + i
     return(simpleArraySum)

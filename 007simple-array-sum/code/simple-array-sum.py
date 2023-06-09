@@ -11,7 +11,7 @@ def simpleArraySum(ar): #Here we defined the function using the array ar as its 
    #will be updated each iteration. 
     for i in ar:
         simpleArraySum = simpleArraySum + i
-    return(simpleArraySum)
+    return(simpleArraySum) #Here we are returning the value of our sum.
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

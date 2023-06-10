@@ -9,7 +9,7 @@ def aVeryBigSum(ar): #Here the function is defined with an array as its paramete
     for i in ar: #Here we are iterating through the array
         aVeryBigSum +=i #Here we add the iterated element to our variable
           
-    return aVeryBigSum
+    return aVeryBigSum #Here we are returning the value of the sum to the variable
                                       
 
 if __name__ == '__main__':

@@ -7,7 +7,7 @@ import sys
 def aVeryBigSum(ar): #Here the function is defined with an array as its parameter
     aVeryBigSum = 0 #Now we are initalizing the variable to start at 0 and store iterated values
     for i in ar: #Here we are iterating through the array
-        aVeryBigSum +=i
+        aVeryBigSum +=i #Here we add the iterated element to our variable
           
     return aVeryBigSum
                                       

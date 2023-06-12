@@ -1,6 +1,7 @@
 
-def print_ful_name(first, last):
-    output = "Hello " + first + " " + last + "! You just delved into python."
+def print_full_name(first, last): #Here the function takes the input first, last
+    output = "Hello " + first + " " + last + "! You just delved into python." #Here I created a variable to hold my
+                                            #the strings and the input first and last . 
     print(output)
 
 if __name__ == '__main__':

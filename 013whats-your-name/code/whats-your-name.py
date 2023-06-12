@@ -2,7 +2,7 @@
 def print_full_name(first, last): #Here the function takes the input first, last
     output = "Hello " + first + " " + last + "! You just delved into python." #Here I created a variable to hold my
                                             #the strings and the input first and last . 
-    print(output)
+    print(output) #Here the variable 'output' is printed
 
 if __name__ == '__main__':
     first_name = input()

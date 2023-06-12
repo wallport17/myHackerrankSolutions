@@ -9,4 +9,4 @@ if __name__ == '__main__':
      read = student_marks[query_name] #This line gets the scores of a particular student in the student_marks dictionary
      sum = sum(read) / len(read) #This line takes the sum of 'read' and divides it by the length of read 
                                  #to get the average
-     print("{:.2f}".format(sum)) 
+     print("{:.2f}".format(sum)) #This line prints with sum with 2 decimal places 

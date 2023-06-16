@@ -1,6 +1,7 @@
 
 def split_and_join(line):
-    a = line.split(" ")
+    a = line.split(" ") #Here i split line at the spaces and converted it 
+                        #into a list of strings
     b = "-".join(a)
     return b
 

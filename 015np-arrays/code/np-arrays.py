@@ -1,12 +1,18 @@
-import numpy #Here we import the NumPy library
+import numpy as np
 
-def arrays(arr): #Here we define arrays with arr as the parameter
-    
-    y = numpy.array(arr,float) #Here we created a NumPy array with arr as
-                               #input and float as the element type 
-    z = y[::-1] #Here we reversed the np array
-    return z #Here we returned our reversed array, the result is printed below
+# Original data points
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([2, 4, 6, 8, 10])
 
-arr = input().strip().split(' ')
-result = arrays(arr)
-print(result)
+# Fit a linear regression line
+coefficients = np.polyfit(x, y, 1)
+slope = coefficients[0]
+intercept = coefficients[1]
+
+# Calculate predicted values using the linear function
+predicted = slope * x + intercept
+
+# Calculate percent error
+percent_error = (abs(y - predicted) / y) * 100
+
+print(percent_error)
